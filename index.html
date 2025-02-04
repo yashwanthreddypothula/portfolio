@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashwanth Reddy Pothula</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo1.png">
+    <script src="https://kit.fontawesome.com/b061b12816.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#certifiations">Certifiations</a></li>
+                    <li> <a href="#portfolio">My Work</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <br>
+                <h1> Hey!, I'm <br><span style="font-size: 51px;">Yashwanth Reddy<br>Pothula</span></h1>
+            </div>
+        </div>
+    </div>
+<!--------------About Section------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png" alt="images">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate and dedicated Computer Science graduate with a strong foundation in programming 
+                        languages such as Java, Python, and C. Adept at working under pressure and adapting to new 
+                        situations. Excellent interpersonal and communication skills with a keen interest in cybersecurity and 
+                        data science.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('cv')">CV</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span> TECHNICAL SKILLS</span><br>Java, HTML, CSS, SQL, C, Python (Basic), Cybersecurity (Fundamentals), <br>MS Office, Git and Github</li>
+                                <li><span> SOFT SKILLS</span><br>Communication Skills, Teamwork, Time management, Conflict management</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="cv">
+                            <ul>
+                                <li><a href="images/CV.pdf" style="text-decoration: none; color: white;" target="_blank"><i class="fa-solid fa-file"></i> View Resume</a> </li>
+                                <li><a href="images/CV.pdf" download class="btn btn2">Download Cv</a> </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>GOKARAJU RANGARAJU INSTITUTE OF ENGINEERING AND TECHNOLOGY, HYDERABAD </span><br><p style="text-align: right;">Bachelor of Technology, Computer Science   - 2021-2025<br>
+                                    CGPA-8.42</p></li>
+                                <li><span>SRI CHAITANYA JUNIOR COLLEGE, HYDERABAD</span><br> <p style="text-align: right;">Telangana State Board of Intermediate Education - 2019-2021<br>
+                                    Percentage -91%</p></li>
+                                <li><span>SHANTINIKETAN VIDYALAYA RESIDENTIAL HIGH SCHOOL, HYDERABAD</span><br> <p style="text-align: right;">Central Board of Secondary Education –2014-2019<br>
+                                    Percentage-73%</p></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------- Certifiations----------------->
+    <div id="certifiations">
+        <div class="container">
+            <h1 class="sub-title">Certifiations</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Introduction to Java - Coursera</h2>
+                    <p> Completed the Introduction to Java course from LearnQuest (Coursera), gaining proficiency in Java programming,
+                         OOP principles, data structures, exception handling, and developing robust, maintainable applications.</p>
+                        <a href="https://coursera.org/share/6d5e8a5569d062a266ef68555cdc7a1d" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>CLA: Programming Essentials in C</h2>
+                    <p>Completed the CLA: Programming Essentials in C course from Cisco Networking Academy,
+                         gaining proficiency in fundamental C programming concepts, coding techniques, and best practices.</p>
+                        <a href="https://drive.google.com/file/d/1OhzkUAu0ErBhFzghwo5Q0hRGKOiiz7Xs/view" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h2>Google Cybersecurity - Coursera</h2>
+                    <p>Completed the Google Cybersecurity Specialization through Coursera, gaining expertise in cybersecurity fundamentals,
+                         risk management, network security, and hands-on experience with Python, Linux, and SQL.</p>
+                        <a href="https://coursera.org/share/bd0b996ea2bbac88b553d56901cbbee0" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Science for Engineers – NPTEL</h2>
+                    <p>Completed the Data Science for Engineers course from NPTEL, gaining knowledge in data analysis,
+                         statistical methods, machine learning, and data-driven decision-making techniques.</p>
+                        <a href="https://drive.google.com/file/d/14IZgaKbPehKPWAo-JTzV2FMUraBtenm8/view?usp=sharing" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analytics with Python - NPTEL</h2>
+                    <p>Completed the Data Analytics with Python course from NPTEL, gaining expertise in data analysis, visualization,
+                         statistical methods, and machine learning using Python.</p>
+                        <a href="https://drive.google.com/file/d/13IarESPNKYFRv1e60GzrosC-t_YZq0OX/view?usp=sharing" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------My Work------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Urban Access</h3>
+                        <p>Designed an intuitive Android app for purchasing tickets and applying for bus passes, significantly 
+                            enhancing user convenience and accessibility. Implemented an search feature, enabling users to 
+                            quickly and effectively find specific routes and buses.</p>
+                        <a href="https://github.com/yashwanthreddypothula/CityBusPass" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" alt="work2">
+                    <div class="layer">
+                        <h3> Timetable Management Database</h3>
+                        <p>Created Timetable Management Database which is modeled such that we can access class schedule, 
+                            teacher’s schedule, student details, attendance Related information quickly using MySQL </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png" alt="work3">
+                    <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Developed a responsive portfolio website using HTML, CSS, and JavaScript to showcase skills, projects, and
+                             certifications. Features include a dynamic navigation menu, tabbed content, contact form integration with
+                              Google Sheets, and smooth animations for an enhanced user experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+          <a href="#" class="btn">Back to Home</a>
+        </div>
+    </div>
+<!------------contact form-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:pyashwanthreddy24@gmail.com" style="text-decoration: none; color: white;"><i class="fa-solid fa-envelope"></i> pyashwanthreddy24@gmail.com</a></p>
+                    <p><a href="tel:+917569518945" style="text-decoration: none; color: white;"><i class="fa-solid fa-phone"></i> +91-7569618945</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yaswanth-reddy-pothula/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/yashwanth_.24?igsh=MWNjdmZpb2doYnZpYQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Yashwanth Reddy Pothula</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEv0LYM1MoEVnN6FlxfOGm5SUwpXy8XB7LVlkm5q0tKgK7yXc5a46MZsJNSOT4BrnpoA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
